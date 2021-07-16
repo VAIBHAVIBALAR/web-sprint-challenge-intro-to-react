@@ -3,22 +3,18 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Character from './components/Character'
 import styled  from 'styled-components';
+import themeObj from './themes'
 
 const StyleDiv = styled.div`
 color: white;
-padding: 2% 5%;
-margin: 8% 15%;
-background-image: url("https://wallpapercave.com/wp/boHuSO8.png");
-font-family: "Times New Roman", Times, serif;
+padding: 0;
+margin: 0;
+height: 100%;
+background-repeat: no-repeat;
+background-position-y: 100%;
+background-size: cover;
+font-family: Arial Black;
 `
-
-
-
-
-
-
-
-
 
 const App = () => {
   const[character , setCharacter] = useState([])
