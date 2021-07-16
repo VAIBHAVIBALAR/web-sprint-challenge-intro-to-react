@@ -17,7 +17,7 @@ const StyleDiv = styled.div`
   font-family: Arial Black;
   @media ${props => props.theme.breakpointMobile}{
     width: initial;
-    padding: 2% 5% 4% 0%;
+    padding: 2% 4% 4% 0%;
   }
   `
 //using state hooks
